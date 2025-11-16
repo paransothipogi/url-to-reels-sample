@@ -233,7 +233,7 @@ const UrlToReelsHero = () => {
       >
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <motion.div
+          {/* <motion.div
             variants={itemVariants}
             className="inline-flex items-center gap-2 px-4 py-2 bg-electric-green/10 border border-electric-green/30 rounded-full mb-6"
           >
@@ -246,7 +246,7 @@ const UrlToReelsHero = () => {
             <span className="text-electric-green text-sm font-semibold">
               AI-Powered Reel Generation
             </span>
-          </motion.div>
+          </motion.div> */}
 
           {/* Headline */}
           <motion.h1
@@ -475,3 +475,4 @@ const UrlToReelsHero = () => {
 };
 
 export default UrlToReelsHero;
+
